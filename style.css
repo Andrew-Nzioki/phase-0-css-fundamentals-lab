@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Tilt+Prism&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+  font-family: 'Kanit', sans-serif;
 }
 h1 {
   color: red;
   text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Tilt Prism', cursive;
 }
 nav{
   text-align: center;
@@ -15,13 +21,31 @@ nav a{
   padding-left: 10px;
   padding-right: 10px;
   color: grey;
+  font-family: 'Kanit', sans-serif;
 }
 .image-center{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 800px;
 }
 figcaption{
   text-align: center;
+  font-size: small;
+  font-family: 'Kanit', sans-serif;
+}
+#featured-property p{
+  text-align: center;
+  font-size: 10px;
+  padding-left: 27%;
+  padding-right: 27%;
+  font-family: 'Kanit', sans-serif;
+}
+
+#details{
+  background-color:red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
 }
