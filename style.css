@@ -9,14 +9,19 @@ h1 {
 }
 nav{
   text-align: center;
-  
 }
 nav a{
   text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: grey;
 }
 .image-center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+figcaption{
+  text-align: center;
 }
